@@ -9,7 +9,7 @@ Installing and creation of payload:
 
 * Install main.py script manually or with command:
 
-`git clone <link>`
+`git clone https://github.com/GentlemanRC/lyvir.git`
 
 * Then create file
 `config.py` with the next text:
