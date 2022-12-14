@@ -14,7 +14,7 @@ Installing and creation of payload:
 * Then create file
 `config.py` with the next text:
 
-`TOKEN =  '<YOUR BOT'S TOKEN>'`<br>`BOT_OWNER_ID = <YOUR TG ID>`
+`TOKEN =  '<YOUR BOT'S TOKEN>'`<br>`BOT_OWNER_ID = [<YOUR TG ID>, <OTHER TH IDS>]`
 
 * Then you can use command
 `pyinstaller --noconsole --onefile main.py`
