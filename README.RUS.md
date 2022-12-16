@@ -1,4 +1,4 @@
-`lyvir v. 1.0`
+`lyvir v. 1.0.1`
 
 `Made by gentlemanrc`
 
